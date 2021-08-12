@@ -1,0 +1,27 @@
+{
+  "name": "maddyscafe",
+  "version": "1.0.0",
+  "description": "second resturant project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rotion63/maddysCafe.git"
+  },
+  "author": "Madhav Prasad Guragain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rotion63/maddysCafe/issues"
+  },
+  "homepage": "https://github.com/Rotion63/maddysCafe#readme",
+  "dependencies": {
+    "webpack": "^5.48.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}
